@@ -8,6 +8,10 @@ generare 10 indirizzi email e stamparli in pagina all’interno di una lista.
 - creo una funzione che mi restituirà la mail random generata dall'API
 - salvo la mail in un data che stamperò in pagina 
 - richiamo la funzione in mounted 
+- aggiungo un ciclo for 
+- pusho le mail generate in un array 
+- utilizzo un v-for per stampare tuttu gli elementi dell'array in pagina 
+
  
 
 
