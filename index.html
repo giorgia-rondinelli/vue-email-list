@@ -11,10 +11,11 @@
 </head>
 <body>
   <div id="app">
-    <ul>
+    <ul v-if="listaEmail.length === 10">
       <h3>Lista email random</h3>
       <li v-for="mail in listaEmail ">{{mail}}</li>
     </ul>
+    <h3 v-else>loading</h3>
   </div>
   
 
